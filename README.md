@@ -18,7 +18,7 @@ A backend API that functions as a question-answering bot leveraging the capabili
 
 1. Clone the repository:
 ```bash
-git clone https://github.com
+git clone https://github.com/Sowjanyachapala9/Zania-coding
 cd ZANIA-QA-API
 ```
 
