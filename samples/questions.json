@@ -1,0 +1,29 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do you have formally defined criteria for notifying a client during an incident that might impact the security of their data or systems? What are your SLAs for notification?"
+    },
+    {
+      "id": 2,
+      "question": "Is personal information transmitted, processed, stored, or disclosed to or retained by third parties? If yes, describe."
+    },
+    {
+      "id": 3,
+      "question": "Which cloud providers do you rely on?"
+    },
+    {
+      "id": 4,
+      "question": "Please specify the primary data center location/region of the underlying cloud infrastructure used to host the service(s) as well as the backup location(s)."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following, if any, are performed as part of your monitoring process for the service:",
+      "options": [
+        "Application Performance Monitoring (APM)",
+        "End User Monitoring (EUM)",
+        "Digital Experience Monitoring (DEM)"
+      ]
+    }
+  ]
+}

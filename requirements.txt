@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+langchain-core>=0.2.0
+langchain-text-splitters>=0.2.0
+langchain-community>=0.2.0
+pypdf
+python-dotenv
+requests
+numpy

@@ -1,0 +1,1045 @@
+[
+    {
+        "subtype": "bot_message",
+        "text": "Keshav S created an issue in the Zania team",
+        "attachments": [
+            {
+                "id": 1,
+                "blocks": [
+                    {
+                        "type": "section",
+                        "block_id": "SFveo",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "<https://linear.app/zania/issue/ZAN-2184/json-changes|ZAN-2184 JSON changes>",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "context",
+                        "block_id": "mcg1g",
+                        "elements": [
+                            {
+                                "type": "mrkdwn",
+                                "text": "*State*  Assigned / Picked Up",
+                                "verbatim": false
+                            },
+                            {
+                                "type": "mrkdwn",
+                                "text": "*Project*  Backend Refactoring Jan 2025",
+                                "verbatim": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "context",
+                        "block_id": "+pkz7",
+                        "elements": [
+                            {
+                                "type": "mrkdwn",
+                                "text": "<https://linear.app/team/ZAN|Zania> | <!date^1737707496^{date_short_pretty} {time}|January 24, 2025>",
+                                "verbatim": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "actions",
+                        "block_id": "ve8Nt",
+                        "elements": [
+                            {
+                                "type": "button",
+                                "action_id": "subscribeIssue",
+                                "text": {
+                                    "type": "plain_text",
+                                    "text": "Subscribe",
+                                    "emoji": true
+                                },
+                                "value": "e17fe40b-4330-4f7a-9fe6-fb9e236b981d"
+                            },
+                            {
+                                "type": "static_select",
+                                "action_id": "changeStatus.e17fe40b-4330-4f7a-9fe6-fb9e236b981d",
+                                "placeholder": {
+                                    "type": "plain_text",
+                                    "text": "Change status",
+                                    "emoji": true
+                                },
+                                "initial_option": {
+                                    "text": {
+                                        "type": "plain_text",
+                                        "text": "Assigned / Picked Up",
+                                        "emoji": true
+                                    },
+                                    "value": "79190bfc-8295-4098-a931-5097fcd5d0c8"
+                                },
+                                "options": [
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Backlog",
+                                            "emoji": true
+                                        },
+                                        "value": "7fbd8a07-ce8d-47df-915b-0879433f1161"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Specification Done",
+                                            "emoji": true
+                                        },
+                                        "value": "affd6ff8-d38f-41b7-be12-b2dd5638fa06"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Assigned / Picked Up",
+                                            "emoji": true
+                                        },
+                                        "value": "79190bfc-8295-4098-a931-5097fcd5d0c8"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "In Progress",
+                                            "emoji": true
+                                        },
+                                        "value": "ecb9ea6d-eacb-4c93-b702-bd212d8ff5e7"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Blocked",
+                                            "emoji": true
+                                        },
+                                        "value": "f2b10edb-965e-4df5-8de2-1287b26c0595"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "PR Review",
+                                            "emoji": true
+                                        },
+                                        "value": "5b3d9630-eba2-42af-a5e7-53e02df5961c"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Pushed to Dev",
+                                            "emoji": true
+                                        },
+                                        "value": "381ca9e1-8f1c-4abf-855f-c673a1132bf5"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Ready for QA (Dev)",
+                                            "emoji": true
+                                        },
+                                        "value": "f2a8ff27-90fe-455a-8454-9c0cd6c92ebc"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Pushed to Staging",
+                                            "emoji": true
+                                        },
+                                        "value": "f2637b98-cf7f-416e-95d9-4e56f749b28f"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Ready for QA (Staging)",
+                                            "emoji": true
+                                        },
+                                        "value": "ce297e7e-6bd6-4cc4-bb93-6fbd214fe2da"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Ready for QA",
+                                            "emoji": true
+                                        },
+                                        "value": "3f7b7765-2402-4b2b-9ec5-54c346617a13"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Ready to Go Live",
+                                            "emoji": true
+                                        },
+                                        "value": "caedfa8d-cc8c-4820-9cf9-55b394ec623b"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Deployed To Production",
+                                            "emoji": true
+                                        },
+                                        "value": "c92097a0-d0de-4924-a31f-bfb7585f8697"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Completed",
+                                            "emoji": true
+                                        },
+                                        "value": "3a289811-3f6a-4bf3-8ae8-4a327b2ba25d"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Canceled",
+                                            "emoji": true
+                                        },
+                                        "value": "df6c05f7-dc9d-422d-982b-2189bbe576bc"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Duplicate",
+                                            "emoji": true
+                                        },
+                                        "value": "ebfa4afc-6c00-425c-8149-6e3cc109c8ab"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "overflow",
+                                "action_id": "moreActions.e17fe40b-4330-4f7a-9fe6-fb9e236b981d",
+                                "options": [
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Comment",
+                                            "emoji": true
+                                        },
+                                        "value": "newComment"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Assign to me",
+                                            "emoji": true
+                                        },
+                                        "value": "assignIssueToMe"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Unsubscribe",
+                                            "emoji": true
+                                        },
+                                        "value": "unsubscribeIssue"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "color": "#2d1c9c",
+                "fallback": "ZAN-2184 JSON changes"
+            }
+        ],
+        "type": "message",
+        "ts": "1737707502.038059",
+        "bot_id": "B062UJHSDA5",
+        "blocks": [
+            {
+                "type": "section",
+                "block_id": "YP1w/",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "*Keshav S* created an issue in the <https://linear.app/zania/team/ZAN/all|Zania> team",
+                    "verbatim": true
+                }
+            }
+        ]
+    },
+    {
+        "subtype": "bot_message",
+        "text": "Keshav S created an issue in the Zania team",
+        "attachments": [
+            {
+                "id": 1,
+                "blocks": [
+                    {
+                        "type": "section",
+                        "block_id": "UrRNt",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "<https://linear.app/zania/issue/ZAN-2185/dowload-report-changes|ZAN-2185 Dowload report changes>",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "context",
+                        "block_id": "DmnvN",
+                        "elements": [
+                            {
+                                "type": "mrkdwn",
+                                "text": "*State*  Assigned / Picked Up",
+                                "verbatim": false
+                            },
+                            {
+                                "type": "mrkdwn",
+                                "text": "*Project*  Backend Refactoring Jan 2025",
+                                "verbatim": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "context",
+                        "block_id": "ly3g7",
+                        "elements": [
+                            {
+                                "type": "mrkdwn",
+                                "text": "<https://linear.app/team/ZAN|Zania> | <!date^1737707509^{date_short_pretty} {time}|January 24, 2025>",
+                                "verbatim": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "actions",
+                        "block_id": "y+lRo",
+                        "elements": [
+                            {
+                                "type": "button",
+                                "action_id": "subscribeIssue",
+                                "text": {
+                                    "type": "plain_text",
+                                    "text": "Subscribe",
+                                    "emoji": true
+                                },
+                                "value": "ffe7e813-6757-48f2-a60c-aa9d7d02d4b8"
+                            },
+                            {
+                                "type": "static_select",
+                                "action_id": "changeStatus.ffe7e813-6757-48f2-a60c-aa9d7d02d4b8",
+                                "placeholder": {
+                                    "type": "plain_text",
+                                    "text": "Change status",
+                                    "emoji": true
+                                },
+                                "initial_option": {
+                                    "text": {
+                                        "type": "plain_text",
+                                        "text": "Assigned / Picked Up",
+                                        "emoji": true
+                                    },
+                                    "value": "79190bfc-8295-4098-a931-5097fcd5d0c8"
+                                },
+                                "options": [
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Backlog",
+                                            "emoji": true
+                                        },
+                                        "value": "7fbd8a07-ce8d-47df-915b-0879433f1161"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Specification Done",
+                                            "emoji": true
+                                        },
+                                        "value": "affd6ff8-d38f-41b7-be12-b2dd5638fa06"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Assigned / Picked Up",
+                                            "emoji": true
+                                        },
+                                        "value": "79190bfc-8295-4098-a931-5097fcd5d0c8"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "In Progress",
+                                            "emoji": true
+                                        },
+                                        "value": "ecb9ea6d-eacb-4c93-b702-bd212d8ff5e7"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Blocked",
+                                            "emoji": true
+                                        },
+                                        "value": "f2b10edb-965e-4df5-8de2-1287b26c0595"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "PR Review",
+                                            "emoji": true
+                                        },
+                                        "value": "5b3d9630-eba2-42af-a5e7-53e02df5961c"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Pushed to Dev",
+                                            "emoji": true
+                                        },
+                                        "value": "381ca9e1-8f1c-4abf-855f-c673a1132bf5"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Ready for QA (Dev)",
+                                            "emoji": true
+                                        },
+                                        "value": "f2a8ff27-90fe-455a-8454-9c0cd6c92ebc"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Pushed to Staging",
+                                            "emoji": true
+                                        },
+                                        "value": "f2637b98-cf7f-416e-95d9-4e56f749b28f"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Ready for QA (Staging)",
+                                            "emoji": true
+                                        },
+                                        "value": "ce297e7e-6bd6-4cc4-bb93-6fbd214fe2da"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Ready for QA",
+                                            "emoji": true
+                                        },
+                                        "value": "3f7b7765-2402-4b2b-9ec5-54c346617a13"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Ready to Go Live",
+                                            "emoji": true
+                                        },
+                                        "value": "caedfa8d-cc8c-4820-9cf9-55b394ec623b"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Deployed To Production",
+                                            "emoji": true
+                                        },
+                                        "value": "c92097a0-d0de-4924-a31f-bfb7585f8697"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Completed",
+                                            "emoji": true
+                                        },
+                                        "value": "3a289811-3f6a-4bf3-8ae8-4a327b2ba25d"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Canceled",
+                                            "emoji": true
+                                        },
+                                        "value": "df6c05f7-dc9d-422d-982b-2189bbe576bc"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Duplicate",
+                                            "emoji": true
+                                        },
+                                        "value": "ebfa4afc-6c00-425c-8149-6e3cc109c8ab"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "overflow",
+                                "action_id": "moreActions.ffe7e813-6757-48f2-a60c-aa9d7d02d4b8",
+                                "options": [
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Comment",
+                                            "emoji": true
+                                        },
+                                        "value": "newComment"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Assign to me",
+                                            "emoji": true
+                                        },
+                                        "value": "assignIssueToMe"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Unsubscribe",
+                                            "emoji": true
+                                        },
+                                        "value": "unsubscribeIssue"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "color": "#2d1c9c",
+                "fallback": "ZAN-2185 Dowload report changes"
+            }
+        ],
+        "type": "message",
+        "ts": "1737707519.028329",
+        "bot_id": "B062UJHSDA5",
+        "blocks": [
+            {
+                "type": "section",
+                "block_id": "YP1w/",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "*Keshav S* created an issue in the <https://linear.app/zania/team/ZAN/all|Zania> team",
+                    "verbatim": true
+                }
+            }
+        ]
+    },
+    {
+        "subtype": "bot_message",
+        "text": "Shruti Gupta commented on ZAN-1910 [UI] Implement FF using Launch Darkly",
+        "type": "message",
+        "ts": "1737708235.337389",
+        "bot_id": "B062UJHSDA5",
+        "blocks": [
+            {
+                "type": "section",
+                "block_id": "Vy19v",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "*Shruti Gupta* commented on <https://linear.app/zania/issue/ZAN-1910/[ui]-implement-ff-using-launch-darkly#comment-36564bd3|ZAN-1910 [UI] Implement FF using Launch Darkly>",
+                    "verbatim": true
+                }
+            },
+            {
+                "type": "section",
+                "block_id": "8pN4r",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "@keshav  how will the rest of the team use it? Could you write a 1 pager, share credentials and also tell the team how they can use it/ when they should use it.",
+                    "verbatim": true
+                }
+            },
+            {
+                "type": "actions",
+                "block_id": "NsxKk",
+                "elements": [
+                    {
+                        "type": "button",
+                        "action_id": "newCommentReply.36564bd3-ab96-43c6-b1eb-699d2cdcccec",
+                        "text": {
+                            "type": "plain_text",
+                            "text": "Reply",
+                            "emoji": true
+                        },
+                        "value": "339466fc-d013-43b9-97d0-35fbe3a03827"
+                    },
+                    {
+                        "type": "overflow",
+                        "action_id": "moreActions.339466fc-d013-43b9-97d0-35fbe3a03827.36564bd3-ab96-43c6-b1eb-699d2cdcccec",
+                        "options": [
+                            {
+                                "text": {
+                                    "type": "plain_text",
+                                    "text": "Subscribe",
+                                    "emoji": true
+                                },
+                                "value": "subscribeIssue"
+                            },
+                            {
+                                "text": {
+                                    "type": "plain_text",
+                                    "text": "Unsubscribe",
+                                    "emoji": true
+                                },
+                                "value": "unsubscribeIssue"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "bot_message",
+        "text": "Shruti Gupta created an issue in the Zania team",
+        "attachments": [
+            {
+                "id": 1,
+                "blocks": [
+                    {
+                        "type": "section",
+                        "block_id": "+aTzw",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "<https://linear.app/zania/issue/ZAN-2186/operationalize-launchdarkly|ZAN-2186 Operationalize LaunchDarkly>",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "block_id": "4R2B4",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "write a 1 pager, share credentials and also tell the team how they can use it/ when they should use it.",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "context",
+                        "block_id": "MVgeB",
+                        "elements": [
+                            {
+                                "type": "mrkdwn",
+                                "text": "*State*  Assigned / Picked Up",
+                                "verbatim": false
+                            },
+                            {
+                                "type": "mrkdwn",
+                                "text": "*Priority*  Medium",
+                                "verbatim": false
+                            },
+                            {
+                                "type": "mrkdwn",
+                                "text": "*Assignee*  Keshav S",
+                                "verbatim": false
+                            },
+                            {
+                                "type": "mrkdwn",
+                                "text": "*Labels*  Chore",
+                                "verbatim": false
+                            },
+                            {
+                                "type": "mrkdwn",
+                                "text": "*Project*  Implement Feature Flags",
+                                "verbatim": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "context",
+                        "block_id": "/+xkP",
+                        "elements": [
+                            {
+                                "type": "mrkdwn",
+                                "text": "<https://linear.app/team/ZAN|Zania> | <!date^1737708284^{date_short_pretty} {time}|January 24, 2025>",
+                                "verbatim": false
+                            }
+                        ]
+                    }
+                ],
+                "color": "#2d1c9c",
+                "fallback": "ZAN-2186 Operationalize LaunchDarkly"
+            }
+        ],
+        "type": "message",
+        "ts": "1737708284.107319",
+        "bot_id": "B062UJHSDA5",
+        "blocks": [
+            {
+                "type": "section",
+                "block_id": "YP1w/",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "*Shruti Gupta* created an issue in the <https://linear.app/zania/team/ZAN/all|Zania> team",
+                    "verbatim": true
+                }
+            }
+        ]
+    },
+    {
+        "subtype": "bot_message",
+        "text": "Christo Kurian created an issue in the Zania team",
+        "attachments": [
+            {
+                "id": 1,
+                "blocks": [
+                    {
+                        "type": "section",
+                        "block_id": "lo501",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "<https://linear.app/zania/issue/ZAN-2197/add-the-word-references-in-the-reference-viewer-count-eg-1-of-2|ZAN-2197 Add the word \"references\" in the reference viewer count (eg: 1 of 2 references)>",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "block_id": "kCQiW",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "​*Description**​",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "block_id": "nx11M",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "•  Add the word \"references\" in the reference viewer count.",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "block_id": "y/+LO",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "​*Steps to Reproduce**​",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "block_id": "ZT7kg",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "1.",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "block_id": "gMnQ7",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "​*Attachment(s)**​",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "block_id": "VVydb",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "•  Screenshot\n\n    <https://uploads.linear.app/1bde683d-3665-4ddd-9e84-6fe3474db36e/555d009b-b53f-4c91-af8f-738e07deedfd/12d03656-9134-43dc-82a4-d2d0a27fe55b|image.png>\n•",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "block_id": "r/453",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "​*Expected Behavior*​",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "block_id": "83Cw6",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "•",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "block_id": "LrL1f",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "​*Actual Behavior*​",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "block_id": "IoB0d",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "•",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "block_id": "fJr5K",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "​*Environment*​",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "block_id": "Pyuuv",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "•  Browser name & version (e.g., Chrome 88, Safari 14)\n•  Operating System (e.g., Windows 10, macOS 11, etc.)\n•  Platform/device (e.g., desktop, mobile, tablet)",
+                            "verbatim": true
+                        }
+                    },
+                    {
+                        "type": "context",
+                        "block_id": "ZDeJo",
+                        "elements": [
+                            {
+                                "type": "mrkdwn",
+                                "text": "*State*  Backlog",
+                                "verbatim": false
+                            },
+                            {
+                                "type": "mrkdwn",
+                                "text": "*Priority*  Medium",
+                                "verbatim": false
+                            },
+                            {
+                                "type": "mrkdwn",
+                                "text": "*Assignee*  Shivang Chheda",
+                                "verbatim": false
+                            },
+                            {
+                                "type": "mrkdwn",
+                                "text": "*Labels*  Improvement",
+                                "verbatim": false
+                            },
+                            {
+                                "type": "mrkdwn",
+                                "text": "*Project*  Design Improvement Initiatives",
+                                "verbatim": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "context",
+                        "block_id": "7lKU8",
+                        "elements": [
+                            {
+                                "type": "mrkdwn",
+                                "text": "<https://linear.app/team/ZAN|Zania> | <!date^1737785921^{date_short_pretty} {time}|January 25, 2025>",
+                                "verbatim": false
+                            }
+                        ]
+                    },
+                    {
+                        "type": "actions",
+                        "block_id": "1k6O5",
+                        "elements": [
+                            {
+                                "type": "button",
+                                "action_id": "subscribeIssue",
+                                "text": {
+                                    "type": "plain_text",
+                                    "text": "Subscribe",
+                                    "emoji": true
+                                },
+                                "value": "cf3c95ca-953c-481b-a7c3-5c4122eedde7"
+                            },
+                            {
+                                "type": "static_select",
+                                "action_id": "changeStatus.cf3c95ca-953c-481b-a7c3-5c4122eedde7",
+                                "placeholder": {
+                                    "type": "plain_text",
+                                    "text": "Change status",
+                                    "emoji": true
+                                },
+                                "initial_option": {
+                                    "text": {
+                                        "type": "plain_text",
+                                        "text": "Backlog",
+                                        "emoji": true
+                                    },
+                                    "value": "7fbd8a07-ce8d-47df-915b-0879433f1161"
+                                },
+                                "options": [
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Backlog",
+                                            "emoji": true
+                                        },
+                                        "value": "7fbd8a07-ce8d-47df-915b-0879433f1161"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Specification Done",
+                                            "emoji": true
+                                        },
+                                        "value": "affd6ff8-d38f-41b7-be12-b2dd5638fa06"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Assigned / Picked Up",
+                                            "emoji": true
+                                        },
+                                        "value": "79190bfc-8295-4098-a931-5097fcd5d0c8"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "In Progress",
+                                            "emoji": true
+                                        },
+                                        "value": "ecb9ea6d-eacb-4c93-b702-bd212d8ff5e7"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Blocked",
+                                            "emoji": true
+                                        },
+                                        "value": "f2b10edb-965e-4df5-8de2-1287b26c0595"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "PR Review",
+                                            "emoji": true
+                                        },
+                                        "value": "5b3d9630-eba2-42af-a5e7-53e02df5961c"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Pushed to Dev",
+                                            "emoji": true
+                                        },
+                                        "value": "381ca9e1-8f1c-4abf-855f-c673a1132bf5"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Ready for QA (Dev)",
+                                            "emoji": true
+                                        },
+                                        "value": "f2a8ff27-90fe-455a-8454-9c0cd6c92ebc"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Pushed to Staging",
+                                            "emoji": true
+                                        },
+                                        "value": "f2637b98-cf7f-416e-95d9-4e56f749b28f"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Ready for QA (Staging)",
+                                            "emoji": true
+                                        },
+                                        "value": "ce297e7e-6bd6-4cc4-bb93-6fbd214fe2da"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Ready for QA",
+                                            "emoji": true
+                                        },
+                                        "value": "3f7b7765-2402-4b2b-9ec5-54c346617a13"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Ready to Go Live",
+                                            "emoji": true
+                                        },
+                                        "value": "caedfa8d-cc8c-4820-9cf9-55b394ec623b"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Deployed To Production",
+                                            "emoji": true
+                                        },
+                                        "value": "c92097a0-d0de-4924-a31f-bfb7585f8697"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Completed",
+                                            "emoji": true
+                                        },
+                                        "value": "3a289811-3f6a-4bf3-8ae8-4a327b2ba25d"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Canceled",
+                                            "emoji": true
+                                        },
+                                        "value": "df6c05f7-dc9d-422d-982b-2189bbe576bc"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Duplicate",
+                                            "emoji": true
+                                        },
+                                        "value": "ebfa4afc-6c00-425c-8149-6e3cc109c8ab"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "overflow",
+                                "action_id": "moreActions.cf3c95ca-953c-481b-a7c3-5c4122eedde7",
+                                "options": [
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Comment",
+                                            "emoji": true
+                                        },
+                                        "value": "newComment"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Assign to me",
+                                            "emoji": true
+                                        },
+                                        "value": "assignIssueToMe"
+                                    },
+                                    {
+                                        "text": {
+                                            "type": "plain_text",
+                                            "text": "Unsubscribe",
+                                            "emoji": true
+                                        },
+                                        "value": "unsubscribeIssue"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "color": "#2d1c9c",
+                "fallback": "ZAN-2197 Add the word \"references\" in the reference viewer count (eg: 1 of 2 references)"
+            }
+        ],
+        "type": "message",
+        "ts": "1737785948.664829",
+        "bot_id": "B062UJHSDA5",
+        "blocks": [
+            {
+                "type": "section",
+                "block_id": "qnmWP",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "*Christo Kurian* created an issue in the <https://linear.app/zania/team/ZAN/all|Zania> team",
+                    "verbatim": true
+                }
+            }
+        ]
+    }
+]
